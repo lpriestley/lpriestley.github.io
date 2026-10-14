@@ -4,7 +4,7 @@
   --muted: #6b6b6b;
   --link: #303030;
   --link-hover: #000000;
-  --nav-link: #555555;
+  --nav-link: var(--link);
   --page-width: 912px;
   --sidebar-width: 240px;
   --content-width: 448px;
@@ -125,7 +125,6 @@ body {
 }
 
 .site-links a.is-current {
-  color: var(--link-hover);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
@@ -134,7 +133,7 @@ body {
 .site-name:hover,
 .site-links a:hover,
 .sidebar-links a:hover {
-  color: var(--link-hover);
+  color: var(--link);
 }
 
 #quarto-content,
