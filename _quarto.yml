@@ -1,0 +1,27 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - research.qmd
+    - writing.qmd
+    - cv.qmd
+    - contact.qmd
+  resources:
+    - assets/cv.pdf
+    - assets/pdfjs/**
+
+website:
+  title: ""
+  site-url: https://lpriestley.github.io/
+  navbar: false
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: false
+    page-layout: full
+    include-before-body: includes/nav.html
+
+execute:
+  freeze: auto

@@ -1,0 +1,13 @@
+---
+title: ""
+---
+
+<div class="home-marker" aria-hidden="true"></div>
+
+I’m a computational neuroscientist working on the mechanisms of intelligence. I try to understand how the brain forms internal representations of the world and uses them for sophisticated feats of cognition, like planning and decision-making.
+
+I’m currently a postdoctoral researcher at the University of Oxford with [Thomas Akam](https://www.psy.ox.ac.uk/people/thomas-akam){.profile-link}. Together with collaborators at [Oxford](https://www.waltonlab.org/){.profile-link} and the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/groups/behrens-lab){.profile-link}, we’re using reinforcement learning theory to study how the brain might support goal-directed behaviour over long time horizons. You can read more about this [here](research.qmd){.profile-link}.
+
+I completed a DPhil (2020–24) and MSc in Experimental Psychology (2018–19) as a Clarendon Scholar at Oxford with [Matthew Rushworth](https://www.psy.ox.ac.uk/people/matthew-rushworth){.profile-link} and [Nima Khalighinejad](https://www.psy.ox.ac.uk/people/nima-khalighinejad){.profile-link}. Before that, I studied Philosophy and Psychology as an undergraduate at the University of Sydney, where I was awarded the University Medal. I focused on Wittgenstein, Kant, and post-Kantian German Idealism. These ideas continue to influence my thinking.
+
+Outside academia, I was a Fellow at [Artis Ventures](https://www.av.co/){.profile-link} (2024–25) in San Francisco, where I covered neurotechnology startups enabled by advances in machine learning and brain–machine interfaces. I remain interested in how new technologies might help us understand the brain, and, reciprocally, in how insights from neuroscience might inform new technologies.

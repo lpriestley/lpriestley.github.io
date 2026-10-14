@@ -1,0 +1,62 @@
+---
+title: ""
+bibliography: data/publications.bib
+csl: apa.csl
+nocite: "@*"
+---
+
+## Selected Publications
+
+::: {#refs}
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const namePattern = /(Priestley,\s*L\.|L\.\s*Priestley|Luke Priestley)/g;
+
+  document.querySelectorAll("#refs .csl-entry").forEach((entry) => {
+    const walker = document.createTreeWalker(entry, NodeFilter.SHOW_TEXT);
+    const textNodes = [];
+
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+    textNodes.forEach((node) => {
+      const parts = node.nodeValue.split(namePattern);
+      if (parts.length === 1) return;
+
+      const fragment = document.createDocumentFragment();
+      parts.forEach((part) => {
+        if (namePattern.test(part)) {
+          const strong = document.createElement("strong");
+          strong.textContent = part;
+          fragment.appendChild(strong);
+        } else {
+          fragment.appendChild(document.createTextNode(part));
+        }
+        namePattern.lastIndex = 0;
+      });
+      node.replaceWith(fragment);
+    });
+  });
+
+  const sharedFirstAuthorEntry = document.querySelector("#ref-khalighinejad2021habenula");
+  if (sharedFirstAuthorEntry) {
+    const walker = document.createTreeWalker(sharedFirstAuthorEntry, NodeFilter.SHOW_TEXT);
+    const textNodes = [];
+
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+    textNodes.forEach((node) => {
+      node.nodeValue = node.nodeValue.replace(
+        /\b(Khalighinejad,\s*N\.|Garrett,\s*N\.\s*E\.|Priestley,\s*L\.)/g,
+        "$1*"
+      );
+    });
+
+    const note = document.createElement("div");
+    note.className = "shared-authorship-note";
+    note.textContent = "* indicates shared first authorship";
+    sharedFirstAuthorEntry.appendChild(note);
+  }
+});
+</script>

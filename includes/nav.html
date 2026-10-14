@@ -1,0 +1,31 @@
+<div class="site-shell">
+  <div class="site-top">
+    <aside class="site-sidebar">
+      <a class="site-name" href="index.html">Luke Priestley</a>
+      <img class="sidebar-headshot" src="assets/headshot.jpg" alt="Headshot of Luke Priestley">
+      <div class="sidebar-links" aria-label="Contact links">
+        <a href="mailto:luke.priestley@psy.ox.ac.uk">Email</a>
+        <a href="https://scholar.google.com/citations?user=Ls2oVIgAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/lpriestley">GitHub</a>
+      </div>
+    </aside>
+    <nav class="site-nav">
+      <div class="site-links">
+        <a href="research.html">Research</a>
+        <a href="writing.html">Writing</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const currentPath = window.location.pathname.replace(/\/$/, "/index.html");
+
+  document.querySelectorAll(".site-links a").forEach((link) => {
+    const linkPath = new URL(link.href, window.location.href).pathname;
+    link.classList.toggle("is-current", linkPath === currentPath);
+  });
+});
+</script>

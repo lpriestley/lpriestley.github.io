@@ -1,0 +1,17 @@
+/.quarto/
+/_site/
+
+# Local files and credentials
+.DS_Store
+.Rhistory
+.RData
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+
+# Earlier local layout experiments
+/demo.html
+/demo_files/

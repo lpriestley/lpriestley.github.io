@@ -1,0 +1,7 @@
+/* Keep the embedded viewer consistent with the website's warm neutral palette. */
+:root {
+  color-scheme: light;
+  --body-bg-color: #e8e6e0;
+  --toolbar-bg-color: #f7f6f2;
+  --sidebar-toolbar-bg-color: #f7f6f2;
+}
