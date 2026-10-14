@@ -5,7 +5,8 @@ GitHub repository: https://github.com/lpriestley/lpriestley.github.io
 
 ## Local preview
 
-Install Quarto, then run from this directory:
+Install Quarto 1.2.269 (the version pinned in the publish workflow), then run from
+this directory:
 
 ```sh
 quarto preview --no-browser
