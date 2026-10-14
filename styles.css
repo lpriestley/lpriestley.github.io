@@ -309,6 +309,10 @@ hr {
 }
 
 @media (max-width: 760px) {
+  :root {
+    --mobile-section-gap: 32px;
+  }
+
   body {
     display: block;
   }
@@ -347,10 +351,11 @@ hr {
     align-items: center;
     width: min(100%, 240px);
     margin-left: 0;
+    margin-top: var(--mobile-section-gap);
   }
 
   .site-nav {
-    margin: 36px 0 42px;
+    margin: var(--mobile-section-gap) 0;
   }
 
   .site-links {
