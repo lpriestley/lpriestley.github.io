@@ -4,7 +4,7 @@ title: ""
 
 <div class="home-marker" aria-hidden="true"></div>
 
-I’m a computational neuroscientist working on the mechanisms of intelligence. I try to understand how the brain forms internal representations of the world and uses them for sophisticated feats of cognition, like planning and decision-making.
+I’m a computational neuroscientist working on the mechanisms of intelligence. I try to understand how the brain forms internal representations of the world, and uses them for sophisticated feats of cognition like planning and decision-making.
 
 I’m currently a postdoctoral researcher at the University of Oxford with [Thomas Akam](https://www.psy.ox.ac.uk/people/thomas-akam){.profile-link}. Together with collaborators at [Oxford](https://www.waltonlab.org/){.profile-link} and the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/groups/behrens-lab){.profile-link}, we’re using reinforcement learning theory to study how the brain might support goal-directed behaviour over long time horizons. You can read more about this [here](research.qmd){.profile-link}.
 
