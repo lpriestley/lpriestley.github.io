@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\n\nDepartment of Experimental Psychology, University of Oxford Life and Mind Building South Parks Rd, Oxford, OX1 3EL United Kingdom\nEmail: luke.priestley@psy.ox.ac.uk\nGitHub: https://github.com/lpriestley\nGoogle Scholar: https://scholar.google.com/citations?user=Ls2oVIgAAAAJ&hl=en\nORCID iD: https://orcid.org/0009-0003-9125-7265\nLinkedIn: https://www.linkedin.com/"
-  },
-  {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "",
-    "section": "",
-    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\nMore soon."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\n\n\n\nI’m a computational neuroscientist working on the mechanisms of intelligence. I try to understand how the brain forms internal representations of the world and uses them for sophisticated feats of cognition, like planning and decision-making.\nI’m currently a postdoctoral researcher at the University of Oxford with Thomas Akam. Together with collaborators at Oxford and the Sainsbury Wellcome Centre, we’re using reinforcement learning theory to study how the brain might support goal-directed behaviour over long time horizons. You can read more about this here.\nI completed a DPhil (2020–24) and MSc in Experimental Psychology (2018–19) as a Clarendon Scholar at Oxford with Matthew Rushworth and Nima Khalighinejad. Before that, I studied Philosophy and Psychology as an undergraduate at the University of Sydney, where I was awarded the University Medal. I focused on Wittgenstein, Kant, and post-Kantian German Idealism. These ideas continue to influence my thinking.\nOutside academia, I was a Fellow at Artis Ventures (2024–25) in San Francisco, where I covered neurotechnology startups enabled by advances in machine learning and brain–machine interfaces. I remain interested in how new technologies might help us understand the brain, and, reciprocally, in how insights from neuroscience might inform new technologies."
+    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\n\n\nI’m a computational neuroscientist working on the mechanisms of intelligence. I try to understand how the brain forms internal representations of the world and uses them for sophisticated feats of cognition, like planning and decision-making.\nI’m currently a postdoctoral researcher at the University of Oxford with Thomas Akam. Together with collaborators at Oxford and the Sainsbury Wellcome Centre, we’re using reinforcement learning theory to study how the brain might support goal-directed behaviour over long time horizons. You can read more about this here.\nI completed a DPhil (2020–24) and MSc in Experimental Psychology (2018–19) as a Clarendon Scholar at Oxford with Matthew Rushworth and Nima Khalighinejad. Before that, I studied Philosophy and Psychology as an undergraduate at the University of Sydney, where I was awarded the University Medal. I focused on Wittgenstein, Kant, and post-Kantian German Idealism. These ideas continue to influence my thinking.\nOutside academia, I was a Fellow at Artis Ventures (2024–25) in San Francisco, where I covered neurotechnology startups enabled by advances in machine learning and brain–machine interfaces. I remain interested in how new technologies might help us understand the brain, and, reciprocally, in how insights from neuroscience might inform new technologies."
   },
   {
     "objectID": "research.html",
@@ -35,10 +21,24 @@
     "text": "Selected Publications\n\n\nPriestley, L., & Akam, T. (2026). Dopamine ramps as a normative consequence of dual-process control. bioRxiv. https://doi.org/10.64898/2026.02.18.706579\n\n\nPriestley, L., Mahmoodi, A., Reith, W. D., Khalighinejad, N., & Rushworth, M. F. S. (2026). Activity in human dorsal raphe nucleus signals changes in behavioural policy. Nature Communications, 17(1), 1665. https://doi.org/10.1038/s41467-026-68349-9\n\n\nVogel, T. A., Priestley, L., Cutler, J., Hogg, T., Khalighinejad, N., Garrett, N. E., Apps, M. A. J., Rushworth, M. F. S., & Lockwood, P. L. (2026). Humans are more prosocial in poor foraging environments. Nature Communications, 17(1), 483. https://doi.org/10.1038/s41467-025-66880-9\n\n\nPriestley, L., Chiew, M., Shahdloo, M., Mahmoodi, A., Cheng, X., Cleveland, R. O., Rushworth, M. F. S., & Khalighinejad, N. (2025). Dorsal raphe nucleus controls motivation-state transitions in monkeys. Science Advances, 11(26), eads1236. https://doi.org/10.1126/sciadv.ads1236\n\n\nTrier, H. A., Khalighinejad, N., Hamilton, S., Harbison, C., Priestley, L., Laubach, M., Klein-Flügge, M. C., Scholl, J. R., & Rushworth, M. F. S. (2025). A distributed subcortical circuit linked to instrumental information-seeking about threat. Proceedings of the National Academy of Sciences, 122(3), e2410955121. https://doi.org/10.1073/pnas.2410955121\n\n\nShahdloo, M., Khalighinejad, N., Priestley, L., Rushworth, M., & Chiew, M. (2024). Dynamic off-resonance correction improves functional image analysis in fMRI of awake behaving non-human primates. Frontiers in Neuroimaging, 3, 1336887. https://doi.org/10.3389/fnimg.2024.1336887\n\n\nKlein-Flügge, M. C., Jensen, D. E. A., Takagi, Y., Priestley, L., Verhagen, L., Smith, S. M., & Rushworth, M. F. S. (2022). Relationship between nuclei-specific amygdala connectivity and mental health dimensions in humans. Nature Human Behaviour, 6(12), 1705–1722. https://doi.org/10.1038/s41562-022-01434-3\n\n\nKhalighinejad, N., Garrett, N. E., Priestley, L., Lockwood, P. L., & Rushworth, M. F. S. (2021). A habenula-insular circuit encodes the willingness to act. Nature Communications, 12(1), 6329. https://doi.org/10.1038/s41467-021-26569-1\n\n\nKhalighinejad, N., Priestley, L., Jbabdi, S., & Rushworth, M. F. S. (2020). Human decisions about when to act originate within a basal forebrain–nigral circuit. Proceedings of the National Academy of Sciences, 117(21), 11799–11810. https://doi.org/10.1073/pnas.1921211117"
   },
   {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "",
+    "section": "",
+    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\nMore soon."
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "",
     "section": "",
-    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\n\n\nDownload PDF"
+    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\n\nDownload PDF"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Luke Priestley\n      \n      \n        Email\n        Google Scholar\n        GitHub\n      \n    \n    \n      \n        Research\n        Writing\n        CV\n        Contact\n      \n    \n  \n\n\n\n\n\n\nDepartment of Experimental Psychology, University of Oxford Life and Mind Building South Parks Rd, Oxford, OX1 3EL United Kingdom\nEmail: luke.priestley@psy.ox.ac.uk\nGitHub: https://github.com/lpriestley\nGoogle Scholar: https://scholar.google.com/citations?user=Ls2oVIgAAAAJ&hl=en\nORCID iD: https://orcid.org/0009-0003-9125-7265\nLinkedIn: https://www.linkedin.com/"
   }
 ]
