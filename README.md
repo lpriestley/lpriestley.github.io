@@ -27,23 +27,24 @@ Keep generated output, local experiments and credentials out of commits.
 The `.gitignore` excludes these files; the project explicitly renders only
 the five website pages.
 
-## First publication (only when ready to go live)
+## Publishing
 
-The repository is private. Public GitHub Pages hosting from a private personal
-repository requires GitHub Pro. Confirm plan eligibility before publishing.
+The repository and website are public. GitHub Pages serves the site at
+https://lpriestley.github.io/ from the `gh-pages` branch (`/ (root)`).
 
-1. Push the source on `main` to the configured `origin` repository.
-2. Run `quarto publish gh-pages` to initialise the published branch and publishing
-   configuration. This command publishes the website publicly.
-3. In GitHub Settings > Pages, select Deploy from a branch, `gh-pages`, `/ (root)`.
-4. If Quarto creates `_publish.yml`, commit and push it. Verify the Publish Site
-   workflow and the live homepage, Research page and embedded CV.
+Commit and push source changes to `main` to run the Publish Site workflow, which
+renders the website and publishes the output to `gh-pages`. It can also be run
+manually from the repository's Actions tab.
 
-The publish workflow runs on pushes to `main` and manual dispatch. After the
-initial setup, pushing changes to `main` updates the live website.
+For a manual deployment from this directory:
 
-Private source does not make the rendered site private: published pages, images,
-the CV and other site assets can be accessed by visitors.
+```sh
+quarto publish gh-pages
+```
+
+Check the workflow result and the live homepage, Research page and embedded CV
+after publishing. Local `quarto preview` and `quarto render` commands do not
+publish anything.
 
 ## Optional ORCID updates
 
